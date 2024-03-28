@@ -1,0 +1,130 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  max-width: 95vw;
+  max-height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card{
+  margin: 10px;
+  padding: 10px;
+  width: 15%;
+  
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+}
+
+.image img{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.category{
+  font-size: 14px;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.star{
+  font-size: x-large;
+
+}
+
+.filled_star{
+  color: gold;
+}
+
+.rating{
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.price{
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.btn{
+  font-weight: bold;
+  background-color: yellow;
+  outline: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.navbar{
+  height: 70px;
+  width: 95vw;
+  border: 1px solid black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to left, #fe7bed, #10e9de);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 50px;
+  border-bottom: none;
+}
+
+.filter{
+  height: 40%;
+  width: 25%;
+  font-weight: bold;
+  
+}
+
+#search{
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.searchbar{
+  display: flex;
+  font-size: 32px;
+  color: black;
+  border: 1px solid black;
+  
+}
+
+.sort{
+  height: 40%;
+  width: 25%;
+  font-weight: bold;
+}
+
+.btn1{
+  background-color: rgb(183, 226, 226);
+  width: 85px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#itemCount{
+  padding-top:0px;
+  color: gray;
+  width: 50%;
+  height: 70%;
+  font-size: 14px;
+}
