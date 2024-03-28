@@ -1,11 +1,11 @@
 *{
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
-  max-width: 95vw;
+  max-width: fit-content;
   max-height: fit-content;
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +63,7 @@
 
 .btn{
   font-weight: bold;
-  background-color: yellow;
+  background-color: gold;
   outline: none;
   border-radius: 5px;
   width: 80px;
@@ -72,17 +72,16 @@
 }
 
 .navbar{
-  height: 70px;
-  width: 95vw;
+  height: 15vh;
+  width: 100vw;
   border: 1px solid black;
   position: sticky;
   top: 0;
   left: 0;
   background: linear-gradient(to left, #fe7bed, #10e9de);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  padding-left: 50px;
   border-bottom: none;
 }
 
@@ -93,18 +92,19 @@
   
 }
 
-#search{
-  width: 300px;
-  height: 40px;
-  font-size: 20px;
+.searchicon{
+  font-size: xx-large;
+ 
 }
 
 .searchbar{
   display: flex;
-  font-size: 32px;
-  color: black;
   border: 1px solid black;
-  
+  width: 40%;
+}
+
+#search{
+  width: 95%; 
 }
 
 .sort{
@@ -115,7 +115,7 @@
 
 .btn1{
   background-color: rgb(183, 226, 226);
-  width: 85px;
+  width: fit-content;
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
@@ -124,7 +124,9 @@
 #itemCount{
   padding-top:0px;
   color: gray;
-  width: 50%;
-  height: 70%;
   font-size: 14px;
+}
+
+#dropdown{
+  width: 16%;
 }
